@@ -9,8 +9,6 @@ public class SimpleMessageRenderer implements MessageRenderer {
     }
 
     public void render() {
-
         System.out.println( provider.getMessage());
-
     }
 }
